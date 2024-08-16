@@ -1,0 +1,286 @@
+
+/* make accessibility outline when elements are clicked transparent */
+
+:focus {outline:transparent !important;}
+
+/* popup notification position */
+
+.shiny-notification {
+            height: 75px;
+            width: 400px;
+            position:fixed;
+            opacity:1;
+            top: calc(50% - 50px);
+            left: calc(50% - 200px);
+             }
+
+/* issue with error message
+see: https://github.com/Leaflet/Leaflet/issues/4686#issuecomment-476738312
+
+.leaflet-fade-anim .leaflet-tile,.leaflet-zoom-anim .leaflet-zoom-animated { will-change:auto !important; }
+*/
+
+.panel_intro {
+  font-size: 14px;
+}
+
+.panel_intro hr {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* reduccing padding left and right of main container */
+.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* reduce padding right of map */
+#map_column {
+  padding-right: 5px;
+}
+
+/* reduce padding to left of traffic 3 column */
+.traffic_column {
+  padding-left: 0px;
+}
+
+
+/* shiny output validation message */
+.shiny-output-error-validation {
+	color: red;
+}
+
+/* reduce margins around page header */
+.page-header {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+#title {
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
+
+/* version number */
+#version {
+  font-size:50%;
+}
+
+/* subheading for developed by ... */
+#subheading {
+  font-size:75%;
+}
+
+#footer {
+  font-size:75%;
+}
+
+/* a row with extra padding at top and bottom */
+.margin-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* space below the tabset panel before intro text */
+#mainTabset {
+  margin-bottom: 5px;
+}
+
+/* add margin to nicely space out the road length plots */
+#mjrl_plot {
+  margin-bottom: 10px;
+}
+
+.layer_divider {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  border-top: 1px solid Gray;
+}
+
+#layercontrol .selectize-control {
+  margin-bottom: 0px;
+}
+
+#layercontrol .choose_option .selectize-input {
+  padding: 2px;
+  min-height: 0;
+  font-size: 12px;
+}
+
+#layercontrol .choose_aadf .selectize-input {
+  margin-left: 0px;
+  padding: 2px;
+  min-height: 0;
+  font-size: 12px;
+}
+
+#layercontrol .choose_option .selectize-dropdown {
+  line-height: 10px;
+  font-size: 12px;
+}
+
+#layercontrol .choose_aadf .selectize-dropdown {
+  line-height: 10px;
+  font-size: 12px;
+}
+
+
+#layercontrol.well {
+  opacity: 0.88;
+  padding: 8px;
+  padding-top: 1px;
+  background-color: #f0f8ff;
+}
+
+/* label for menu toggle */
+#sftz_menu_toggle {
+  font-size: 12px;
+	position: relative;
+	left: -3px;
+	bottom: 3px;
+	top: 0px;
+
+}
+
+/* showMenu checkbox */
+#showMenu {
+  width: 12px;
+  height: 12px;
+}
+
+#layercontrol .form-group {
+  margin-bottom: 0px;
+}
+
+#layercontrol .checkbox {
+  margin-left: 0px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+#layercontrol .checkbox label {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+/* align checkbox label */
+#layercontrol .checkbox label span {
+ position: relative;
+ top: 1px;
+ right: 2px;
+}
+
+#layercontrol .radio {
+  margin-bottom: 0px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+/* align radio button labels with buttons */
+#layercontrol .radio-inline span {
+  margin-left: -3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* align radio button labels with buttons */
+#layercontrol .radio span {
+  margin-left: -3px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 90%;
+}
+
+#layercontrol .radio-inline {
+  margin-bottom: 1px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+#layercontrol .shiny-options-group {
+  margin-top: -12px;
+  margin-left: 20px;
+}
+
+
+#layercontrol #srtm_mode .shiny-options-group {
+  margin-top: 2px;
+}
+
+#layercontrol h5 {
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+#layercontrol h6 {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+
+
+.legend {
+    background-color: rgb(240, 248, 255, 0.88);
+}
+
+
+/* Countpoint filter dropdowns */
+
+.data_filters .selectize-input {
+  margin-left: 0px;
+  padding: 4px;
+  min-height: 0px;
+  font-size: 14px;
+}
+
+.data_filters .selectize-dropdown {
+  line-height: 12px;
+  font-size: 14px;
+}
+
+
+.data_filters label {
+  font-size: 14px;
+}
+
+
+
+
+/* Table text font size */
+.rt-td {
+  font-size: 11px;
+}
+
+.-header {
+  font-size: 12px;
+}
+
+.rt-expandable {
+  font-size: 12px;
+}
+
+.sftz_info_link {
+	position: relative;
+	top: -1px;
+	left: 3px;
+	font-size: 14px;
+}
+
+.sftz_info_link_small {
+	position: relative;
+	top: -1px;
+	left: 3px;
+	font-size: 14px;
+}
+
+dt {
+  margin-top: 4px;
+}
+
+dd {
+  line-height: 1.1;
+}
+

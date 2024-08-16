@@ -1,0 +1,11 @@
+<h4>Associating count points with major road links</h4>
+
+<p>
+Each year since 2018, the DfT has supplied a shapefile of a generalised major road network, which they refer to as the "Major Roads Database". Each link of this network corresponds with a major road count point reported in the specific year. They are matched by count point ID.
+</p>
+<p>
+The GB Traffic Data Explorer uses the most recent version of the major road network. Count points with an ID that matches a link ID are joined. In addition, any unmatched countpoints that are in the same location as a matched count point are joined to the same link as the matched count point. It should be noted that while the location of these additional countpoints is clearly correct, the link that they refer to may have altered. For example, the link may now be longer or shorter (with different start and end points). When a link is clicked, information about the countpoint(s) associated with it will be provided (with a dropdown to select between multiple count points if they exist).
+</p>
+<p>
+This approach will mean that some countpoints are not represented in the visualisation for prior years. This might be because the major road link they related to no longer exists, for example if a by-pass has been constructed, or because the count point location has changed.
+</p>
